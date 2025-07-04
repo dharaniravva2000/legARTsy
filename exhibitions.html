@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>legARTsy - Exhibitions & Events</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>legARTsy</h1>
+    <p>YourART.YourLEGACY</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="collections.html">Arts Collections</a>
+    <a href="exhibitions.html" class="active">Exhibitions/Events</a>
+    <a href="visit.html">Visit & Offline Stores</a>
+    <a href="cart.html">Cart</a>
+    <a href="profile.html">Profile</a>
+  </nav>
+  <section class="video-hero">
+    <video autoplay muted loop>
+      <source src="WhatsApp Video 2025-07-04 at 13.23.42.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="slideshow-text" id="slideshow">
+      <h2>Welcome to legARTsy Events</h2>
+      <p>Experience the finest blend of tradition and innovation through curated exhibitions.</p>
+    </div>
+  </section>
+
+  <main>
+    <!-- Event 1 -->
+    <article class="event-article">
+      <h3>Spring Sculpture Showcase</h3>
+      <p><strong>Date:</strong> July 15 - July 30, 2025</p>
+      <p>Explore new sculpture pieces from renowned artists, featuring emerald tones and timeless themes.</p>
+      <img src="https://cdn.images.express.co.uk/img/dynamic/139/590x/secondary/Elgin-Marbles-5135115.jpg?r=1703784833887" height="500px" width="150px" alt="People viewing sculptures" />
+
+      <div class="artist-info">
+        <h4>Featured Artist: Elena Rivera</h4>
+        <p>Elena is a contemporary sculptor blending classical forms with environmental storytelling.</p>
+      </div>
+
+      <button onclick="purchaseArt('Spring Sculpture Showcase')">Book Tickets</button>
+    </article>
+
+    <!-- Event 2 -->
+    <article class="event-article">
+      <h3>Legacy Art Festival</h3>
+      <p><strong>Date:</strong> August 10 - August 20, 2025</p>
+      <p>A celebration of art that tells stories and creates lasting legacies. Workshops and artist talks included.</p>
+      <img src="https://smithgreenfield.co.uk/wp-content/uploads/2025/06/Edwardians_Exhibition-displays-with-Queen-Alexandras-ball-costume.jpg" height="500px" width="150px" alt="Art admirers at event" />
+
+      <div class="artist-info">
+        <h4>Featured Artist: Malik Thompson</h4>
+        <p>Malik uses historical influences and modern mediums to explore generational memory through art.</p>
+      </div>
+
+      <button onclick="purchaseArt('Legacy Art Festival')">Book Tickets</button>
+    </article>
+
+    <!-- Event 3 -->
+    <article class="event-article">
+      <h3>Royal Paintings Exhibition</h3>
+      <p><strong>Date:</strong> September 5 - September 25, 2025</p>
+      <p>Featuring exquisite paintings with a royal touch, perfect for collectors and art lovers.</p>
+      <img src="https://assets.londonist.com/uploads/2018/01/i875/2008_inside_the_national_portrait_gallery__london.jpg" height="500px" width="150px" alt="Visitors exploring paintings" />
+
+      <div class="artist-info">
+        <h4>Featured Artist: Sophia Bennett</h4>
+        <p>With a baroque soul and modern palette, Sophia reimagines aristocratic elegance on canvas.</p>
+      </div>
+      <button onclick="purchaseArt('Royal Paintings Exhibition')">Book Tickets</button>
+    </article>
+  </main>
+  
+  
+
+  <footer>&copy; 2025 legARTsy. All rights reserved.</footer>
+  <script src="script.js"></script>
+</body>
+</html>

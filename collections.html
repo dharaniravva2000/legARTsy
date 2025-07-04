@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>legARTsy - Arts Collections</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>legARTsy</h1>
+    <p>YourART.YourLEGACY</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="collections.html" class="active">Arts Collections</a>
+    <a href="exhibitions.html">Exhibitions/Events</a>
+    <a href="visit.html">Visit & Offline Stores</a>
+    <a href="cart.html">Cart</a>
+    <a href="profile.html">Profile</a>
+  </nav>
+
+  <main>
+    <section class="gallery" id="gallery">
+
+      <!-- Card 1: Emerald Vision -->
+      <div class="art-card">
+        <img src="https://i.etsystatic.com/32138048/r/il/c81511/5042639896/il_570xN.5042639896_8pei.jpg" alt="Emerald Vision" />
+        <div class="info">
+          <h3>Emerald Vision</h3>
+          <p>Emerald Vision Arts is dedicated to nature-inspired Artworks</p>
+          <button onclick="purchaseArt('Emerald Vision')">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- Card 2: Legacy Stroke -->
+      <div class="art-card">
+        <img src="https://images.squarespace-cdn.com/content/v1/5caa57b7e8ba44f0a1ce6bb3/1554774175607-51X7ARU6W7EPGT1CVGXH/A01.jpg" alt="Legacy Stroke" />
+        <div class="info">
+          <h3>Legacy Stroke</h3>
+          <p>Art that tells a story beyond the canvas.</p>
+          <button onclick="purchaseArt('Legacy Stroke')">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- Card 3: Mystic Flow -->
+      <div class="art-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbGxi5DTRyp2MYOzOE0L8FKxJJM4puxCooA&s" alt="Mystic Flow" />
+        <div class="info">
+          <h3>Mystic Flow</h3>
+          <p>An abstract journey in motion.</p>
+          <button onclick="purchaseArt('Mystic Flow')">Buy Now</button>
+        </div>
+      </div>
+
+      <!-- Card 4: Stone Grace -->
+      <div class="art-card">
+        <img src="https://dsm2vix2l99vj.cloudfront.net/tmp/image-thumbnails/Web/News/2016/March/11/image-thumb__1436__cover-1200x768/museonacionaldeescultura3_es.jpg" alt="Stone Grace" />
+        <div class="info">
+          <h3>Stone Grace</h3>
+          <p>An elegant sculpture carved with passion.</p>
+          <button onclick="purchaseArt('Stone Grace')">Buy Now</button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- COLLECTION SECTIONS -->
+<section id="emerald-vision" class="collection-section">
+  <h2>Emerald Vision Collection</h2>
+  <div class="product-card">
+    <img src="https://i.etsystatic.com/32138048/r/il/c81511/5042639896/il_570xN.5042639896_8pei.jpg" alt="Emerald Forest Canvas" />
+    <div class="details">
+      <h3>Emerald Forest Canvas</h3>
+      <p><strong>Artist:</strong> Lara Greenscape</p>
+      <p><strong>Description:</strong> Inspired by the deep jungles of Kerala, this nature-themed canvas breathes tranquility.</p>
+      <p><strong>Price:</strong> $350</p>
+      <p><strong>Copies Available:</strong> 3</p>
+      <p><strong>Original:</strong> Yes</p>
+      <div class="action-buttons">
+        <button onclick="addToCart('Emerald Forest Canvas')">Add to Cart</button>
+        <button onclick="buyNow('Emerald Forest Canvas')">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="legacy-stroke" class="collection-section">
+  <h2>Legacy Stroke Collection</h2>
+  <div class="product-card">
+    <img src="https://images.squarespace-cdn.com/content/v1/5caa57b7e8ba44f0a1ce6bb3/1554774175607-51X7ARU6W7EPGT1CVGXH/A01.jpg" alt="Timeless Heritage" />
+    <div class="details">
+      <h3>Timeless Heritage</h3>
+      <p><strong>Artist:</strong> R. V. Naidu</p>
+      <p><strong>Description:</strong> Depicts the lineage of artistic legacies from Indian temple murals to modern canvas.</p>
+      <p><strong>Price:</strong> $420</p>
+      <p><strong>Copies Available:</strong> 1 (Limited Edition)</p>
+      <p><strong>Original:</strong> Yes</p>
+      <div class="action-buttons">
+        <button onclick="addToCart('Legacy Stroke Canvas')">Add to Cart</button>
+        <button onclick="buyNow('Legacy Stroke Canvas')">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="mystic-flow" class="collection-section">
+  <h2>Mystic Flow Collection</h2>
+  <div class="product-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbGxi5DTRyp2MYOzOE0L8FKxJJM4puxCooA&s" alt="Waves of Infinity" />
+    <div class="details">
+      <h3>Waves of Infinity</h3>
+      <p><strong>Artist:</strong> Priya Das</p>
+      <p><strong>Description:</strong> Abstract curves and soft motion expressing the mystical nature of time and space.</p>
+      <p><strong>Price:</strong> $290</p>
+      <p><strong>Copies Available:</strong> 5</p>
+      <p><strong>Original:</strong> No (Replica)</p>
+      <div class="action-buttons">
+        <button onclick="addToCart('Mystic Flow Canvas')">Add to Cart</button>
+        <button onclick="buyNow('Mystic Flow Canvas')">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stone-grace" class="collection-section">
+  <h2>Stone Grace Collection</h2>
+  <div class="product-card">
+    <img src="https://dsm2vix2l99vj.cloudfront.net/tmp/image-thumbnails/Web/News/2016/March/11/image-thumb__1436__cover-1200x768/museonacionaldeescultura3_es.jpg" alt="Silent Elegance" />
+    <div class="details">
+      <h3>Silent Elegance</h3>
+      <p><strong>Artist:</strong> Dhruv Patel</p>
+      <p><strong>Description:</strong> Hand-sculpted marble figure symbolizing stillness and peace, inspired by Indian deities.</p>
+      <p><strong>Price:</strong> $800</p>
+      <p><strong>Copies Available:</strong> 1</p>
+      <p><strong>Original:</strong> Yes</p>
+      <div class="action-buttons">
+        <button onclick="addToCart('Stone Grace')">Add to Cart</button>
+        <button onclick="buyNow('Stone Grace')">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer>&copy; 2025 legARTsy. All rights reserved.</footer>
+  <script src="script.js"></script>
+  <script>
+    // const gallery = document.getElementById("gallery");
+    // renderGallery();
+  </script>
+</body>
+</html>

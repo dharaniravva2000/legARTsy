@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>legARTsy - Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>legARTsy</h1>
+    <p>YourART.YourLEGACY</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="collections.html">Arts Collections</a>
+    <a href="exhibitions.html">Exhibitions/Events</a>
+    <a href="visit.html">Visit & Offline Stores</a>
+    <a href="cart.html">Cart</a>
+    <a href="profile.html" class="active">Profile</a>
+  </nav>
+
+  <main class="profile-container">
+    <section class="profile-header">
+      <img src="https://i.pravatar.cc/150?img=47" alt="Profile Picture" class="profile-pic" />
+      <div class="profile-info">
+        <h2>Jane Doe</h2>
+        <p>Email: jane.doe@example.com</p>
+      </div>
+    </section>
+  
+    <section class="profile-sections">
+      <div class="profile-box">
+        <h3>🗓️ Upcoming Events</h3>
+        <ul>
+          <li>Royal Paintings Exhibition – Sept 5, 2025</li>
+          <li>Legacy Art Festival – Aug 10, 2025</li>
+        </ul>
+      </div>
+  
+      <div class="profile-box">
+        <h3>🛍️ Your Orders</h3>
+        <ul>
+          <li>“Emerald Visions” – Delivered</li>
+          <li>“Mystic Flow” – In Transit</li>
+        </ul>
+      </div>
+  
+      <div class="profile-box">
+        <h3>🖼️ Your Collections / Cart</h3>
+        <ul>
+          <li>Stone Grace – 1 copy</li>
+          <li>Legacy Stroke – 2 copies</li>
+        </ul>
+        <a href="collections.html" class="green-btn">View Collections</a>
+      </div>
+  
+      <div class="profile-box">
+        <h3>⚙️ Account Settings</h3>
+        <form>
+          <label for="emailPref">Email Notifications:</label>
+          <select id="emailPref" name="emailPref">
+            <option value="all">All Notifications</option>
+            <option value="updates">Updates Only</option>
+            <option value="none">No Notifications</option>
+          </select>
+  
+          <label for="themePref">Theme Preference:</label>
+          <select id="themePref" name="themePref">
+            <option value="light">Light Mode</option>
+            <option value="dark">Dark Mode</option>
+          </select>
+  
+          <button type="submit" class="green-btn">Save Settings</button>
+        </form>
+      </div>
+  
+      <div class="logout-box">
+        <button class="logout-btn">🚪 Log Out</button>
+      </div>
+    </section>
+  </main>
+  
+
+  <footer>&copy; 2025 legARTsy. All rights reserved.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
