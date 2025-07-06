@@ -796,3 +796,36 @@ nav a:hover {
     display: block;
   }
 }
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav.show {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+.royal-green-btn {
+  background-color: #012b15; /* Royal green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.royal-green-btn:hover {
+  background-color: #0f3a08; /* Slightly darker green on hover */
+}
+

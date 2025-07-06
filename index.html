@@ -10,14 +10,14 @@
   <header>
     <h1>legARTsy</h1>
     <p>YourART.YourLEGACY</p>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
   </header>
 
-  <nav>
+  <nav id="main-nav">
     <a href="index.html" class="active">Home</a>
     <a href="collections.html">Arts Collections</a>
     <a href="exhibitions.html">Exhibitions/Events</a>
-    <a href="shop.html">Shop</a>
-    <a href="visit.html">Visit & Stores</a>
+    <a href="visit.html">Visit Stores</a>
     <a href="cart.html">Cart</a>
     <a href="profile.html">Profile</a>
   </nav>
@@ -28,7 +28,7 @@
   <main>
     <section class="hero">
       <video autoplay muted loop class="bg-video">
-        <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4" />
+        <source src="Videos/rain.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div class="hero-content">
@@ -44,7 +44,7 @@
 
       <!-- Card 1: Emerald Vision -->
       <div class="art-card">
-        <img src="https://i.etsystatic.com/32138048/r/il/c81511/5042639896/il_570xN.5042639896_8pei.jpg" alt="Emerald Vision" />
+        <img src="Images/Emerald Vision.avif" alt="Emerald Vision" />
         <div class="info">
           <h3>Emerald Vision</h3>
           <p>Emerald Vision Arts is dedicated to nature-inspired Artworks</p>
@@ -55,7 +55,7 @@
 
       <!-- Card 2: Legacy Stroke -->
       <div class="art-card">
-        <img src="https://images.squarespace-cdn.com/content/v1/5caa57b7e8ba44f0a1ce6bb3/1554774175607-51X7ARU6W7EPGT1CVGXH/A01.jpg" alt="Legacy Stroke" />
+        <img src="Images/Legacy Stroke.jpg" alt="Legacy Stroke" />
         <div class="info">
           <h3>Legacy Stroke</h3>
           <p>Art that tells a story beyond the canvas.</p>
@@ -65,7 +65,7 @@
 
       <!-- Card 3: Mystic Flow -->
       <div class="art-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbGxi5DTRyp2MYOzOE0L8FKxJJM4puxCooA&s" alt="Mystic Flow" />
+        <img src="Images/Mystic Flow.jpeg" alt="Mystic Flow" />
         <div class="info">
           <h3>Mystic Flow</h3>
           <p>An abstract journey in motion.</p>
@@ -75,7 +75,7 @@
 
       <!-- Card 4: Stone Grace -->
       <div class="art-card">
-        <img src="https://dsm2vix2l99vj.cloudfront.net/tmp/image-thumbnails/Web/News/2016/March/11/image-thumb__1436__cover-1200x768/museonacionaldeescultura3_es.jpg" alt="Stone Grace" />
+        <img src="Images/Stone Grace.jpg" alt="Stone Grace" />
         <div class="info">
           <h3>Stone Grace</h3>
           <p>An elegant sculpture carved with passion.</p>
@@ -95,12 +95,12 @@
     <!-- Review 1 -->
     <article style="min-width: 250px; background: var(--royal-white); border: 1px solid var(--royal-black); border-radius: 10px; padding: 15px; flex: 0 0 auto;">
       <img 
-        src="https://promptguides.com/london/_photos/tate_modern/tate_modern_002.jpg" 
+        src="Images/Review1.jpg" 
         alt="Beautiful sculpture" 
         style="width: 100%; height: 250px; object-fit: contain; background: white; border-radius: 10px; margin-bottom: 10px;" 
       />
       <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Amelia" style="width: 50px; height: 50px; border-radius: 50%;" />
+        <img src="Images/Dp1.jpg" alt="Amelia" style="width: 50px; height: 50px; border-radius: 50%;" />
         <div>
           <strong>Amelia R.</strong><br />
           <span style="color: gold;">★★★★★</span>
@@ -112,12 +112,12 @@
     <!-- Review 2 -->
     <article style="min-width: 250px; background: var(--royal-white); border: 1px solid var(--royal-black); border-radius: 10px; padding: 15px; flex: 0 0 auto;">
       <img 
-        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/93/5e/71/ernst-fireside-angel.jpg?w=900&h=500&s=1" 
+        src="Images/Review2.jpg" 
         alt="Art gallery interior" 
         style="width: 100%; height: 250px; object-fit: contain; background: white; border-radius: 10px; margin-bottom: 10px;" 
       />
       <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-        <img src="https://randomuser.me/api/portraits/men/35.jpg" alt="Jonathan" style="width: 50px; height: 50px; border-radius: 50%;" />
+        <img src="Images/Dp2.jpg" alt="Jonathan" style="width: 50px; height: 50px; border-radius: 50%;" />
         <div>
           <strong>Jonathan M.</strong><br />
           <span style="color: gold;">★★★★☆</span>
@@ -129,12 +129,12 @@
     <!-- Review 3 -->
     <article style="min-width: 250px; background: var(--royal-white); border: 1px solid var(--royal-black); border-radius: 10px; padding: 15px; flex: 0 0 auto;">
       <img 
-        src="https://smarthistory.org/wp-content/uploads/2020/07/AntikytheraGrid-scaled.jpg" 
+        src="Images/Review3.jpg" 
         alt="Ancient Sculpture" 
         style="width: 100%; height: 250px; object-fit: contain; background: white; border-radius: 10px; margin-bottom: 10px;" 
       />
       <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
-        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Priya" style="width: 50px; height: 50px; border-radius: 50%;" />
+        <img src="Images/Dp3.jpg" alt="Priya" style="width: 50px; height: 50px; border-radius: 50%;" />
         <div>
           <strong>Priya K.</strong><br />
           <span style="color: gold;">★★★★★</span>
@@ -155,7 +155,7 @@
     
     <!-- Card 1 -->
     <div class="cart" style="width: 440px; background-color: var(--royal-white); border: 1px solid var(--royal-black); border-radius: 10px; overflow: hidden;">
-      <img src="https://img.freepik.com/premium-photo/group-sculptures-display-museum-suitable-art-culture-concepts_153912-155148.jpg?w=360" alt="Spring Sale" style="width: 100%; height: 200px; object-fit: cover;">
+      <img src="Images/Update1.avif" alt="Spring Sale" style="width: 100%; height: 200px; object-fit: cover;">
       <div style="padding: 15px;">
         <h5 style="color: var(--royal-green); margin-bottom: 5px;">5 March 2023</h5>
         <h4 style="color: var(--royal-black); margin-bottom: 10px;">Spring Season Art Sale</h4>
@@ -166,7 +166,7 @@
 
     <!-- Card 2 -->
     <div class="cart" style="width: 440px; background-color: var(--royal-white); border: 1px solid var(--royal-black); border-radius: 10px; overflow: hidden;">
-      <img src="https://static.standard.co.uk/2021/05/17/00/acaee4fe002ea63b72a32b1f7ad6565cY29udGVudHNlYXJjaGFwaSwxNjIxMTA1NzI0-2.21958079.jpg?crop=8:5,smart&quality=75&auto=webp&width=1000" alt="Gallery Opening" style="width: 100%; height: 200px; object-fit: cover;">
+      <img src="Images/Update2.avif" alt="Gallery Opening" style="width: 100%; height: 200px; object-fit: cover;">
       <div style="padding: 15px;">
         <h5 style="color: var(--royal-green); margin-bottom: 5px;">20 June 2023</h5>
         <h4 style="color: var(--royal-black); margin-bottom: 10px;">New Gallery Wing Opened</h4>
@@ -177,7 +177,7 @@
 
     <!-- Card 3 -->
     <div class="cart" style="width: 440px; background-color: var(--royal-white); border: 1px solid var(--royal-black); border-radius: 10px; overflow: hidden;">
-      <img src="https://media.npr.org/assets/img/2009/10/19/10_slide-6c5b0645d02677dce299d569bcbf6621927aed63.jpg" alt="Art Workshop" style="width: 100%; height: 200px; object-fit: cover;">
+      <img src="Images/Update3.jpg" alt="Art Workshop" style="width: 100%; height: 200px; object-fit: cover;">
       <div style="padding: 15px;">
         <h5 style="color: var(--royal-green); margin-bottom: 5px;">12 July 2023</h5>
         <h4 style="color: var(--royal-black); margin-bottom: 10px;">Sculpture Workshop Highlights</h4>

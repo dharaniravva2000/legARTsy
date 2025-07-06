@@ -1,0 +1,50 @@
+# 🎨 legARTsy – YourART.YourLEGACY
+
+**legARTsy** is a responsive, user-friendly art e-commerce and exhibition platform where users can explore, purchase, and manage curated artworks. It combines an elegant design with interactive features such as shopping, cart management, profile settings, and more.
+
+---
+
+## 📁 Project Structure
+legARTsy/
+├── Images # Pictures related to the website
+├── Videos # Videos related to the website
+├── index.html # Homepage
+├── collections.html # Arts Collections
+├── exhibitions.html # Exhibitions/Events
+├── visit.html # Offline Store Info
+├── cart.html # Shopping Cart
+├── profile.html # User Profile
+│
+├── styles.css # Main stylesheet
+├── script.js # JavaScript logic
+├── README.md # You're here!
+
+
+---
+
+## 🚀 Features
+
+- ✅ **Home Page Slider** — Rotating featured events or exhibitions
+- 🛒 **Add to Cart** — Add artworks to cart with quantity and price tracking
+- 💳 **Cart Page** — View items, total price, and clear cart option
+- ⚙️ **User Profile Settings** — Set email notification & UI preferences
+- 📱 **Responsive Design** — Works smoothly on desktop and mobile
+- 🧩 **Navigation Menu** — Mobile-friendly toggleable menu
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **LocalStorage API** – for persisting cart and preferences
+
+---
+
+## 📦 How to Use
+
+1. **Clone or download the repository**
+   ```bash
+   git clone https://github.com/yourusername/legARTsy.git
+   cd legARTsy

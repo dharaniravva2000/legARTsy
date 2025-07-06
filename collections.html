@@ -10,13 +10,14 @@
   <header>
     <h1>legARTsy</h1>
     <p>YourART.YourLEGACY</p>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
   </header>
 
-  <nav>
+  <nav id="main-nav">
     <a href="index.html">Home</a>
     <a href="collections.html" class="active">Arts Collections</a>
     <a href="exhibitions.html">Exhibitions/Events</a>
-    <a href="visit.html">Visit & Offline Stores</a>
+    <a href="visit.html">Visit Stores</a>
     <a href="cart.html">Cart</a>
     <a href="profile.html">Profile</a>
   </nav>
@@ -26,7 +27,7 @@
 
       <!-- Card 1: Emerald Vision -->
       <div class="art-card">
-        <img src="https://i.etsystatic.com/32138048/r/il/c81511/5042639896/il_570xN.5042639896_8pei.jpg" alt="Emerald Vision" />
+        <img src="Images/Emerald Vision.avif" alt="Emerald Vision" />
         <div class="info">
           <h3>Emerald Vision</h3>
           <p>Emerald Vision Arts is dedicated to nature-inspired Artworks</p>
@@ -36,7 +37,7 @@
 
       <!-- Card 2: Legacy Stroke -->
       <div class="art-card">
-        <img src="https://images.squarespace-cdn.com/content/v1/5caa57b7e8ba44f0a1ce6bb3/1554774175607-51X7ARU6W7EPGT1CVGXH/A01.jpg" alt="Legacy Stroke" />
+        <img src="Images/Legacy Stroke.jpg" alt="Legacy Stroke" />
         <div class="info">
           <h3>Legacy Stroke</h3>
           <p>Art that tells a story beyond the canvas.</p>
@@ -46,7 +47,7 @@
 
       <!-- Card 3: Mystic Flow -->
       <div class="art-card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbGxi5DTRyp2MYOzOE0L8FKxJJM4puxCooA&s" alt="Mystic Flow" />
+        <img src="Images/Mystic Flow.jpeg" alt="Mystic Flow" />
         <div class="info">
           <h3>Mystic Flow</h3>
           <p>An abstract journey in motion.</p>
@@ -56,7 +57,7 @@
 
       <!-- Card 4: Stone Grace -->
       <div class="art-card">
-        <img src="https://dsm2vix2l99vj.cloudfront.net/tmp/image-thumbnails/Web/News/2016/March/11/image-thumb__1436__cover-1200x768/museonacionaldeescultura3_es.jpg" alt="Stone Grace" />
+        <img src="Images/Stone Grace.jpg" alt="Stone Grace" />
         <div class="info">
           <h3>Stone Grace</h3>
           <p>An elegant sculpture carved with passion.</p>
@@ -70,7 +71,7 @@
 <section id="emerald-vision" class="collection-section">
   <h2>Emerald Vision Collection</h2>
   <div class="product-card">
-    <img src="https://i.etsystatic.com/32138048/r/il/c81511/5042639896/il_570xN.5042639896_8pei.jpg" alt="Emerald Forest Canvas" />
+    <img src="Images/Emerald Vision.avif" alt="Emerald Forest Canvas" />
     <div class="details">
       <h3>Emerald Forest Canvas</h3>
       <p><strong>Artist:</strong> Lara Greenscape</p>
@@ -89,7 +90,7 @@
 <section id="legacy-stroke" class="collection-section">
   <h2>Legacy Stroke Collection</h2>
   <div class="product-card">
-    <img src="https://images.squarespace-cdn.com/content/v1/5caa57b7e8ba44f0a1ce6bb3/1554774175607-51X7ARU6W7EPGT1CVGXH/A01.jpg" alt="Timeless Heritage" />
+    <img src="Images/Legacy Stroke.jpg" alt="Timeless Heritage" />
     <div class="details">
       <h3>Timeless Heritage</h3>
       <p><strong>Artist:</strong> R. V. Naidu</p>
@@ -108,7 +109,7 @@
 <section id="mystic-flow" class="collection-section">
   <h2>Mystic Flow Collection</h2>
   <div class="product-card">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkbGxi5DTRyp2MYOzOE0L8FKxJJM4puxCooA&s" alt="Waves of Infinity" />
+    <img src="Images/Mystic Flow.jpeg" alt="Waves of Infinity" />
     <div class="details">
       <h3>Waves of Infinity</h3>
       <p><strong>Artist:</strong> Priya Das</p>
@@ -127,7 +128,7 @@
 <section id="stone-grace" class="collection-section">
   <h2>Stone Grace Collection</h2>
   <div class="product-card">
-    <img src="https://dsm2vix2l99vj.cloudfront.net/tmp/image-thumbnails/Web/News/2016/March/11/image-thumb__1436__cover-1200x768/museonacionaldeescultura3_es.jpg" alt="Silent Elegance" />
+    <img src="Images/Stone Grace.jpg" alt="Silent Elegance" />
     <div class="details">
       <h3>Silent Elegance</h3>
       <p><strong>Artist:</strong> Dhruv Patel</p>
@@ -147,9 +148,6 @@
 
   <footer>&copy; 2025 legARTsy. All rights reserved.</footer>
   <script src="script.js"></script>
-  <script>
-    // const gallery = document.getElementById("gallery");
-    // renderGallery();
-  </script>
+ 
 </body>
 </html>
